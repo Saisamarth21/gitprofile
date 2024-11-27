@@ -29,7 +29,7 @@ const CONFIG = {
           description:
             'Deployed a React application using Docker and Kubernetes with Horizontal Pod Autoscaling (HPA) for efficient scaling',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2069.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2069.png',
           link: 'https://github.com/Saisamarth21/React-Docker-Kubernetes',
         },
         {
@@ -37,7 +37,7 @@ const CONFIG = {
           description:
             'Deployed a React quiz app using AWS Amplify and integrated AWS Cognito for user authentication.',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2070.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2070.png',
           link: 'https://github.com/Saisamarth21/React-quiz',
         },
         {
@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Ansible setup and configuration with AWS EC2. This project involves installing Ansible on one of three created EC2 instances and includes various Ansible playbooks for system management.',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2071.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2071.png',
           link: 'https://github.com/Saisamarth21/Ansible-on-AWS',
         },
         {
@@ -53,7 +53,7 @@ const CONFIG = {
           description:
             'This project is a web-based email authentication system that uses Phone.Email for email verification and Google reCAPTCHA v3 for security. Built with HTML, CSS, JavaScript, Node.js, and Express, its designed for hosting on platforms with backend support.',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2073.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2073.png',
           link: 'https://github.com/Saisamarth21/Email-Verification-with-reCAPTCHA',
         },
         {
@@ -61,7 +61,7 @@ const CONFIG = {
           description:
             'This project is a web-based email authentication system that uses Phone.Email for email verification and Google reCAPTCHA v3 for security. Built with HTML, CSS, JavaScript, Node.js, and Express, its designed for hosting on platforms with backend support.',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2072.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2072.png',
           link: 'https://github.com/Saisamarth21/Hotel-Booking-Chatbot-Using-AWS-Lex-Tool',
         },
         {
@@ -69,7 +69,7 @@ const CONFIG = {
           description:
             'UI/UX Design for a learning app',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2074(1).png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2074(1).png',
           link: 'https://saisamarth.framer.website/',
         },
         {
@@ -77,7 +77,7 @@ const CONFIG = {
           description:
             'UI/UX Design for a game contest hosting',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2076.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2076.png',
           link: 'https://saisamarth.framer.website/',
         },
         {
@@ -85,7 +85,7 @@ const CONFIG = {
           description:
             'Graphic designs for @thecoding_wiz page',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2075.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2075.png',
           link: 'https://saisamarth.framer.website/',
         },
         {
@@ -93,7 +93,7 @@ const CONFIG = {
           description:
             'UI/UX design for a music streaming site',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2077.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2077.png',
           link: 'https://saisamarth.framer.website/',
         },
       ],
