@@ -1,5 +1,3 @@
-// gitprofile.config.ts
-
 const CONFIG = {
   github: {
     username: 'Saisamarth21', // Your GitHub org/user name. (This is the only required config)
@@ -13,7 +11,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'My Github',
+      header: 'My GitHub',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -25,7 +23,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Saisamarth21/React-quiz', 'Saisamarth21/React-Docker-Kubernetes'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -37,16 +35,72 @@ const CONFIG = {
           description:
             'Deployed a React application using Docker and Kubernetes with Horizontal Pod Autoscaling (HPA) for efficient scaling',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2069.png',
+          link: 'https://github.com/Saisamarth21/React-Docker-Kubernetes',
         },
         {
-          title: 'Project Name',
+          title: 'React quiz',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Deployed a React quiz app using AWS Amplify and integrated AWS Cognito for user authentication.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2070.png',
+          link: 'https://github.com/Saisamarth21/React-quiz',
+        },
+        {
+          title: 'Ansible on AWS',
+          description:
+            'Ansible setup and configuration with AWS EC2. This project involves installing Ansible on one of three created EC2 instances and includes various Ansible playbooks for system management.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2071.png',
+          link: 'https://github.com/Saisamarth21/Ansible-on-AWS',
+        },
+        {
+          title: 'Email Verification with reCAPTCHA',
+          description:
+            'This project is a web-based email authentication system that uses Phone.Email for email verification and Google reCAPTCHA v3 for security. Built with HTML, CSS, JavaScript, Node.js, and Express, its designed for hosting on platforms with backend support.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2073.png',
+          link: 'https://github.com/Saisamarth21/Email-Verification-with-reCAPTCHA',
+        },
+        {
+          title: 'Hotel Booking Chatbot Using AWS Lex Tool',
+          description:
+            'This project is a web-based email authentication system that uses Phone.Email for email verification and Google reCAPTCHA v3 for security. Built with HTML, CSS, JavaScript, Node.js, and Express, its designed for hosting on platforms with backend support.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2072.png',
+          link: 'https://github.com/Saisamarth21/Hotel-Booking-Chatbot-Using-AWS-Lex-Tool',
+        },
+        {
+          title: 'COURSEWISE',
+          description:
+            'UI/UX Design for a learning app',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2074(1).png',
+          link: 'https://saisamarth.framer.website/',
+        },
+        {
+          title: 'Gameyte',
+          description:
+            'UI/UX Design for a game contest hosting',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2076.png',
+          link: 'https://saisamarth.framer.website/',
+        },
+        {
+          title: 'Instagram post',
+          description:
+            'Graphic designs for @thecoding_wiz page',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2075.png',
+          link: 'https://saisamarth.framer.website/',
+        },
+        {
+          title: 'TENTONE',
+          description:
+            'UI/UX design for a music streaming site',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/Portfolio/refs/heads/main/Images/Frame%2077.png',
+          link: 'https://saisamarth.framer.website/',
         },
       ],
     },
@@ -62,7 +116,7 @@ const CONFIG = {
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: 'sai.samarth',
+    instagram: '',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
@@ -73,118 +127,137 @@ const CONFIG = {
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://saisamarth.framer.website/',
+    telegram: 'saisamarthudikeri',
+    website: 'https://saisamarth.framer.website',
     phone: '',
     email: 'saisamarthudikeri@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1Dc8RDkksc4bqIV3ZEtOquPxY0mD6dwmx/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'C++',
-    'AWS',
-    'JavaScript',
     'React.js',
+    'AWS',
+    'Ansible',
+    'Linux',
     'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
     'Kubernetes',
-    'CSS',
+    'Docker',
     'Python',
-    '',
+    'C',
+    'C++',
+    'HTML',
+    'CSS',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'KLETech-Center of Excellence in Visual Intelligence (CEVI)',
+      position: 'Project Intern',
+      from: 'Sep 2023',
+      to: 'Jul 2024',
+      companyLink: 'https://cevi.co.in/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Innovilla',
+      position: 'AWS Developer',
+      from: 'Aug 2024',
+      to: 'Sep 2024',
+      companyLink: 'https://innovilla.in/',
+    },
+    {
+      company: 'CodingWiz',
+      position: 'UI/UX Designer',
+      from: 'May 2023',
+      to: 'Jun 2023',
+      companyLink: 'https://thecodewiz.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'AWS Academy Cloud Foundations',
+      body: '',
+      year: 'Oct 2024',
+      link: 'https://drive.google.com/file/d/1k_AQFTVjdsqqnoxXdXOd2NLuZp6MmQQ1/view',
+    },
+    {
+      name: 'Smart India Hackathon',
+      body: '',
+      year: 'Sep 2024',
+      link: 'https://drive.google.com/file/d/175-mwcvRuFH6Oxj2OIjkNkTQyLp7Duzq/view',
+    },
+    {
+      name: 'AWS Cloud Practitioner Essentials',
+      body: '',
+      year: 'Aug 2024',
+      link: 'https://drive.google.com/file/d/1kZQnKuyJoSzFGGj9Ek8RCOFj02qAtJp9/view',
+    },
+    {
+      name: 'Cisco Networking Basics',
+      body: '',
+      year: 'May 2024',
+      link: 'https://drive.google.com/file/d/1TSQOWvU8eK1tOlBZEN3O3oNZOcXOB_7Z/view',
+    },
+    {
+      name: 'Kubernetes Course from a DevOps guru (Kubernetes + Docker)',
+      body: '',
+      year: 'May 2024',
+      link: 'https://drive.google.com/file/d/1gUbeOlt5Nqp9TPv3D2D917AxglH-RcEr/view',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'KLE Technological University - Hubballi (India)',
+      degree: 'Computer Science and Engineering',
+      from: '2025',
+      to: '2021',
+    },
+    {
+      institution: 'Prism PU Science College',
+      degree: 'Pre University',
+      from: '2021',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Kendriya Vidyalaya (KV)',
+      degree: 'School',
+      from: '2019',
+      to: '2009',
     },
   ],
+  // Removed blog section
   publications: [
     {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      title: 'A Comprehensive Comparative Analysis Between TEED and DexiNed for Enhanced Image Edge Detection',
+      conferenceName: 'International Conference on Computer Communication and Informatics (ICCCI)',
+      journalName: 'ICCCI',
+      authors: 'Saisamarth Udikeri, Anupama P Bidargaddi',
+      link: 'https://drive.google.com/file/d/1XSnaqWJF-yUltSaSeaWMfhkFsHNWCiDT/view?usp=drive_link',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'This paper compares two edge detection models, Tiny Efficient Edge Detection (TEED) and Dense Extreme Inception Network (DexiNed), across multiple image datasets using metrics like MSE, PSNR, SSIM, NSER, EBIQA, and Sobel-based Reduced Reference. TEED prioritizes efficiency with 58K parameters, while DexiNed focuses on accuracy. The study highlights architectural differences in upsampling networks, loss functions, and skip connections. Results show TEED excels in lower error metrics (MSE) and higher edge preservation (NSER), while DexiNed produces sharper edges due to multi-scale processing. Average EBIQA values for TEED and DexiNed are 0.3304 and 0.5717, and NSER values are 13.028 and 9.159, respectively. The findings offer insights for selecting edge detection methods for computer vision tasks.',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
     id: '',
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'halloween',
 
     // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
     disableSwitch: false,
 
     // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
     respectPrefersColorScheme: false,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
 
-    // Available themes. To remove any theme, exclude from here.
     themes: [
       'light',
       'dark',
@@ -232,13 +305,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
