@@ -49,6 +49,14 @@ const CONFIG = {
           link: 'https://github.com/Saisamarth21/Ansible-on-AWS',
         },
         {
+          title: 'Hybrid AES and 3DES Encryption System',
+          description:
+            'This project uses hybrid encryption with AES (CTR mode) and 3DES to securely encrypt and decrypt image datasets, combining speed and enhanced security.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2080.png',
+          link: 'https://github.com/Saisamarth21/Hybrid-AES-and-3DES-Encryption-System',
+        },
+        {
           title: 'Email Verification with reCAPTCHA',
           description:
             'This project is a web-based email authentication system that uses Phone.Email for email verification and Google reCAPTCHA v3 for security. Built with HTML, CSS, JavaScript, Node.js, and Express, its designed for hosting on platforms with backend support.',
