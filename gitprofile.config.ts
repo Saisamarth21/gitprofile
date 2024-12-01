@@ -53,7 +53,7 @@ const CONFIG = {
           description:
             'Histopathology-based Oral Cancer Diagnosis using advanced deep learning techniques. This project employs U-Net for segmentation and InceptionV3 for multi-class classification, enabling early detection and grading of oral cancer from histopathological images.',
           imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2070.png',
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2082.png',
           link: 'https://github.com/Saisamarth21/Histopathology-for-Oral-Cancer-Diagnosis',
         },
         {
