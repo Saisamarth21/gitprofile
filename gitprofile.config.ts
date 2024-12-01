@@ -41,6 +41,22 @@ const CONFIG = {
           link: 'https://github.com/Saisamarth21/React-quiz',
         },
         {
+          title: 'Human 3D Avatar Generation from an Image',
+          description:
+            'This project presents a system for generating realistic 3D human avatars from single RGB images. It integrates pose-guided normal prediction with detailed implicit surface reconstruction using advanced computer vision techniques',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2082.png',
+          link: 'https://github.com/Saisamarth21/Human-3D-avatar-generation-from-an-image',
+        },
+        {
+          title: 'Histopathology for Oral Cancer Diagnosis',
+          description:
+            'Histopathology-based Oral Cancer Diagnosis using advanced deep learning techniques. This project employs U-Net for segmentation and InceptionV3 for multi-class classification, enabling early detection and grading of oral cancer from histopathological images.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2070.png',
+          link: 'https://github.com/Saisamarth21/Histopathology-for-Oral-Cancer-Diagnosis',
+        },
+        {
           title: 'Ansible on AWS',
           description:
             'Ansible setup and configuration with AWS EC2. This project involves installing Ansible on one of three created EC2 instances and includes various Ansible playbooks for system management.',
