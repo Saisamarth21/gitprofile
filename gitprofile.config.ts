@@ -51,10 +51,26 @@ const CONFIG = {
         {
           title: 'Histopathology for Oral Cancer Diagnosis',
           description:
-            'Histopathology-based Oral Cancer Diagnosis using advanced deep learning techniques. This project employs U-Net for segmentation and InceptionV3 for multi-class classification, enabling early detection and grading of oral cancer from histopathological images.',
+            'This project demonstrates the use of Hadoop and Hive to perform sentiment analysis on a Twitter dataset. The process involves uploading a CSV dataset to the Hadoop Distributed File System (HDFS), and querying the data for insights.',
           imageUrl:
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2082.png',
           link: 'https://github.com/Saisamarth21/Histopathology-for-Oral-Cancer-Diagnosis',
+        },
+       {
+          title: 'Twitter Sentiment Analysis Using Hadoop and Hive',
+          description:
+            'Histopathology-based Oral Cancer Diagnosis using advanced deep learning techniques. This project employs U-Net for segmentation and InceptionV3 for multi-class classification, enabling early detection and grading of oral cancer from histopathological images.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2085.png',
+          link: 'https://github.com/Saisamarth21/Twitter-Sentiment-Analysis-Using-Hadoop-and-Hive',
+        },
+       {
+          title: 'Oil Spill Detection in Marine Environments Using AIS and Satellite Data',
+          description:
+            'Detects marine oil spills using AIS data and satellite imagery. Utilizes machine learning for anomaly detection and SAR image analysis to protect the environment.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2084.png',
+          link: 'https://github.com/Saisamarth21/Oil-Spill-Detection-in-Marine-Environments-Using-AIS-and-Satellite-Data',
         },
         {
           title: 'Ansible on AWS',
