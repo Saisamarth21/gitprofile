@@ -13,12 +13,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: [], // These projects will not be displayed.
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Saisamarth21/React-quiz', 'Saisamarth21/React-Docker-Kubernetes'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['Saisamarth21/React-quiz', 'Saisamarth21/React-Docker-Kubernetes'],
       },
     },
     external: {
@@ -41,6 +41,22 @@ const CONFIG = {
           link: 'https://github.com/Saisamarth21/React-quiz',
         },
         {
+          title: 'Ansible on AWS',
+          description:
+            'Ansible setup and configuration with AWS EC2. This project involves installing Ansible on one of three created EC2 instances and includes various Ansible playbooks for system management.',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2071.png',
+          link: 'https://github.com/Saisamarth21/Ansible-on-AWS',
+        },
+        {
+          title: 'Web Hosting Using Nginx on Linux Server',
+          description:
+            'Hosted a website using Nginx on Linux (WSL) with domain routing',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2087.png',
+          link: 'https://github.com/Saisamarth21/Web-Hosting-Using-Nginx-on-Linux-Servers',
+        },
+        {
           title: 'Human 3D Avatar Generation from an Image',
           description:
             'This project presents a system for generating realistic 3D human avatars from single RGB images. It integrates pose-guided normal prediction with detailed implicit surface reconstruction using advanced computer vision techniques',
@@ -56,7 +72,7 @@ const CONFIG = {
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2082.png',
           link: 'https://github.com/Saisamarth21/Histopathology-for-Oral-Cancer-Diagnosis',
         },
-       {
+        {
           title: 'Twitter Sentiment Analysis Using Hadoop and Hive',
           description:
             'This project demonstrates the use of Hadoop and Hive to perform sentiment analysis on a Twitter dataset. The process involves uploading a CSV dataset to the Hadoop Distributed File System (HDFS), and querying the data for insights.',
@@ -64,21 +80,13 @@ const CONFIG = {
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2085.png',
           link: 'https://github.com/Saisamarth21/Twitter-Sentiment-Analysis-Using-Hadoop-and-Hive',
         },
-       {
+        {
           title: 'Oil Spill Detection in Marine Environments Using AIS and Satellite Data',
           description:
             'Detects marine oil spills using AIS data and satellite imagery. Utilizes machine learning for anomaly detection and SAR image analysis to protect the environment.',
           imageUrl:
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2084.png',
           link: 'https://github.com/Saisamarth21/Oil-Spill-Detection-in-Marine-Environments-Using-AIS-and-Satellite-Data',
-        },
-        {
-          title: 'Ansible on AWS',
-          description:
-            'Ansible setup and configuration with AWS EC2. This project involves installing Ansible on one of three created EC2 instances and includes various Ansible playbooks for system management.',
-          imageUrl:
-            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2071.png',
-          link: 'https://github.com/Saisamarth21/Ansible-on-AWS',
         },
         {
           title: 'Hybrid AES and 3DES Encryption System',
@@ -105,33 +113,37 @@ const CONFIG = {
           link: 'https://github.com/Saisamarth21/Hotel-Booking-Chatbot-Using-AWS-Lex-Tool',
         },
         {
-          title: 'COURSEWISE',
+          title: 'ZEE5 Clone',
           description:
-            'UI/UX Design for a learning app',
+            'This project is a Clone of ZEE5 Streaming Site',
+          imageUrl:
+            'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2088.png',
+          link: 'https://github.com/Saisamarth21/ZEE5',
+        },
+        {
+          title: 'COURSEWISE',
+          description: 'UI/UX Design for a learning app',
           imageUrl:
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2074(1).png',
           link: 'https://saisamarth.framer.website/',
         },
         {
           title: 'Gameyte',
-          description:
-            'UI/UX Design for a game contest hosting',
+          description: 'UI/UX Design for a game contest hosting',
           imageUrl:
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2076.png',
           link: 'https://saisamarth.framer.website/',
         },
         {
           title: 'Instagram post',
-          description:
-            'Graphic designs for @thecoding_wiz page',
+          description: 'Graphic designs for @thecoding_wiz page',
           imageUrl:
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2075.png',
           link: 'https://saisamarth.framer.website/',
         },
         {
           title: 'TENTONE',
-          description:
-            'UI/UX design for a music streaming site',
+          description: 'UI/UX design for a music streaming site',
           imageUrl:
             'https://raw.githubusercontent.com/Saisamarth21/gitprofile/refs/heads/main/Images/Frame%2077.png',
           link: 'https://saisamarth.framer.website/',
@@ -153,13 +165,13 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: 'saisamaudikeri1',
     medium: '',
     dev: '',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    stackoverflow: '',
     skype: '',
     telegram: 'saisamarthudikeri',
     website: 'https://saisamarth.framer.website',
@@ -168,7 +180,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1Dc8RDkksc4bqIV3ZEtOquPxY0mD6dwmx/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/12Lzc-7iCSfQXgh3ElbYQEtxgC9oATmGw/view?usp=drive_link',
   },
   skills: [
     'React.js',
@@ -185,8 +197,16 @@ const CONFIG = {
     'C++',
     'HTML',
     'CSS',
+    'Nginx'
   ],
   experiences: [
+    {
+      company: 'ClickCrawl Media Private Limited',
+      position: 'Software Developer Intern',
+      from: 'February 2025',
+      to: '',
+      companyLink: 'https://clickcrawl.net/',
+    },
     {
       company: 'KLETech-Center of Excellence in Visual Intelligence (CEVI)',
       position: 'Project Intern',
@@ -215,6 +235,12 @@ const CONFIG = {
       body: '',
       year: 'Oct 2024',
       link: 'https://drive.google.com/file/d/1k_AQFTVjdsqqnoxXdXOd2NLuZp6MmQQ1/view',
+    },
+    {
+      name: 'Cyber Security and Privacy',
+      body: '',
+      year: 'Nov 2024',
+      link: 'https://drive.google.com/file/d/1uGkrjSnKXIukedUdd2PsptgxVrp98Qsn/view',
     },
     {
       name: 'Smart India Hackathon',
@@ -263,17 +289,19 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'A Comprehensive Comparative Analysis Between TEED and DexiNed for Enhanced Image Edge Detection',
-      conferenceName: 'International Conference on Computer Communication and Informatics (ICCCI)',
+      title:
+        'A Comprehensive Comparative Analysis Between TEED and DexiNed for Enhanced Image Edge Detection',
+      conferenceName:
+        'International Conference on Computer Communication and Informatics (ICCCI)',
       journalName: 'ICCCI',
       authors: 'Saisamarth Udikeri, Anupama P Bidargaddi',
       link: 'https://drive.google.com/file/d/1XSnaqWJF-yUltSaSeaWMfhkFsHNWCiDT/view?usp=drive_link',
       description:
-        'This paper compares two edge detection models, Tiny Efficient Edge Detection (TEED) and Dense Extreme Inception Network (DexiNed), across multiple image datasets using metrics like MSE, PSNR, SSIM, NSER, EBIQA, and Sobel-based Reduced Reference. TEED prioritizes efficiency with 58K parameters, while DexiNed focuses on accuracy. The study highlights architectural differences in upsampling networks, loss functions, and skip connections. Results show TEED excels in lower error metrics (MSE) and higher edge preservation (NSER), while DexiNed produces sharper edges due to multi-scale processing. Average EBIQA values for TEED and DexiNed are 0.3304 and 0.5717, and NSER values are 13.028 and 9.159, respectively. The findings offer insights for selecting edge detection methods for computer vision tasks.',
+        'This paper compares two edge detection models, Tiny Efficient Edge Detection (TEED) and Dense Extreme Inception Network (DexiNed), across multiple image datasets using various metrics. The study highlights differences in efficiency and accuracy between the two models.',
     },
   ],
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: '',
   },
   hotjar: {
     id: '',
@@ -281,16 +309,9 @@ const CONFIG = {
   },
   themeConfig: {
     defaultTheme: 'halloween',
-
-    // Hides the switch in the navbar
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
     respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
     displayAvatarRing: true,
-
     themes: [
       'light',
       'dark',
@@ -326,8 +347,6 @@ const CONFIG = {
       'sunset',
       'procyon',
     ],
-
-    // Custom theme, applied to `procyon` theme
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -338,7 +357,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-
   enablePWA: true,
 };
 
